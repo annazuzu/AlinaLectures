@@ -3,6 +3,8 @@ package com.company.awt.model;
 import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.awt.image.ImageObserver;
+import java.text.AttributedCharacterIterator;
 
 public class ServerForm extends Frame
 {
@@ -12,7 +14,6 @@ public class ServerForm extends Frame
     Button stopButton;
     Button exitButton;
     WindowEvent closingEvent;
-
 
     public ServerForm(){
         portLabel = new Label("port:");
@@ -92,8 +93,6 @@ public class ServerForm extends Frame
         portTextField.setText("");
         portTextField.setEditable(true);
     }
-
-
 
     // Геттеры:
 

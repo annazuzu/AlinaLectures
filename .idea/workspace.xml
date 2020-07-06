@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e64f03b-daec-4522-b551-dd64e7f9c970" name="Default Changelist" comment="" />
+    <list default="true" id="6e64f03b-daec-4522-b551-dd64e7f9c970" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/awt/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/awt/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/awt/server/ServerUpAndDown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlinaLectures/com/company/awt/ServerFormListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlinaLectures/com/company/awt/ServerFormListener$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlinaLectures/com/company/awt/ServerFormListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlinaLectures/com/company/awt/ServerFormListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlinaLectures/com/company/awt/model/ServerForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlinaLectures/com/company/awt/model/ServerForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/awt/ServerFormApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/awt/ServerFormApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/awt/ServerFormListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/awt/ServerFormListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/awt/model/ServerForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/awt/model/ServerForm.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +26,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1dsClvYRFiSM70KmBIw0ZCLh27O" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -21,14 +36,31 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.company.exceptiontests" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.company.awt.model" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.ServerFormApp">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.awt.client.Client" />
+      <module name="AlinaLectures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.awt.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.clientserver.client.Client" />
       <module name="AlinaLectures" />
@@ -42,25 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.clientserver.server.Server" />
+    <configuration name="Server (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.awt.server.Server" />
       <module name="AlinaLectures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.clientserver.server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ServerClientOutput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.clientserver.server.ServerClientOutput" />
-      <module name="AlinaLectures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.clientserver.server.*" />
+          <option name="PATTERN" value="com.company.awt.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.streams.StreamsData" />
+    <configuration name="ServerUpAndDown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.awt.server.ServerUpAndDown" />
       <module name="AlinaLectures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.streams.*" />
+          <option name="PATTERN" value="com.company.awt.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,10 +116,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ServerFormApp" />
+        <item itemvalue="Application.Server (1)" />
+        <item itemvalue="Application.ServerUpAndDown" />
+        <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.ServerClientOutput" />
-        <item itemvalue="Application.Server" />
-        <item itemvalue="Application.StreamsData" />
       </list>
     </recent_temporary>
   </component>
@@ -130,30 +149,34 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1593894335234">
+    <state x="413" y="121" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1594042571791">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1593894335234" />
+    <state x="413" y="121" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1594042571791" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1594041167717">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1594041167717" />
     <state x="484" y="255" width="398" height="224" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1593331333750">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="484" y="255" width="398" height="224" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1593331333750" />
-    <state width="1323" height="123" key="GridCell.Tab.0.bottom" timestamp="1593897547421">
+    <state width="1323" height="123" key="GridCell.Tab.0.bottom" timestamp="1594048115248">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="123" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593897547421" />
-    <state width="1323" height="123" key="GridCell.Tab.0.center" timestamp="1593897547421">
+    <state width="1323" height="123" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594048115248" />
+    <state width="1323" height="123" key="GridCell.Tab.0.center" timestamp="1594048115248">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="123" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593897547421" />
-    <state width="1323" height="123" key="GridCell.Tab.0.left" timestamp="1593897547421">
+    <state width="1323" height="123" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594048115248" />
+    <state width="1323" height="123" key="GridCell.Tab.0.left" timestamp="1594048115248">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="123" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593897547421" />
-    <state width="1323" height="123" key="GridCell.Tab.0.right" timestamp="1593897547421">
+    <state width="1323" height="123" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594048115248" />
+    <state width="1323" height="123" key="GridCell.Tab.0.right" timestamp="1594048115248">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="123" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593897547421" />
+    <state width="1323" height="123" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594048115248" />
     <state width="1323" height="187" key="GridCell.Tab.1.bottom" timestamp="1593791507137">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -170,10 +193,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="187" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1593791507137" />
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1593892631004">
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1594021941412">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1593892631004" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1594021941412" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1593788169863">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

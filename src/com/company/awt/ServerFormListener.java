@@ -1,10 +1,15 @@
 package com.company.awt;
 
+import com.company.awt.client.Client;
 import com.company.awt.model.ServerForm;
+import com.company.awt.server.Server;
 
 import java.awt.*;
 import java.awt.event.*;
 import java.io.Closeable;
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.net.Socket;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -13,9 +18,15 @@ import static java.lang.Integer.parseInt;
 class ServerFormListener implements ActionListener, FocusListener, KeyListener, MouseListener, WindowListener {
     ServerForm sf;
     WindowAdapter windowAdapter = null;
+    //int port;
+    Client cl;
+    Server sr;
 
-    public ServerFormListener(ServerForm sf) {
+    public ServerFormListener(ServerForm sf, Server sr) {
         this.sf = sf;
+        this.sr = sr;
+        //this.cl = cl;
+
         sf.getStartButton().addActionListener(this);
         sf.getStopButton().addActionListener(this);
         sf.getExitButton().addActionListener(this);
@@ -34,7 +45,8 @@ class ServerFormListener implements ActionListener, FocusListener, KeyListener, 
             @Override
             public void windowClosing(WindowEvent e) {
                 super.windowClosing(e);
-                sf.dispose();
+                //sf.dispose();
+                System.exit(1);
             }
         };
         sf.addWindowListener(this.windowAdapter);
@@ -45,7 +57,15 @@ class ServerFormListener implements ActionListener, FocusListener, KeyListener, 
         if (e.getSource() == sf.getStartButton()) {
             if(!sf.getPortTextField().getText().equals("")){
                 // вызвать программный код из соответствующего уровня приложения, который будет запускать сервер
+                try {
+                    sr.serverUp(5050);
+
+                } catch (IOException ex) {
+                    ex.printStackTrace();
+                }
+
                 sf.startServer();
+
             } else {
                 sf.ErrorPort("Поле 'Port' пустое!");
                 return;
@@ -53,13 +73,18 @@ class ServerFormListener implements ActionListener, FocusListener, KeyListener, 
         }
         if (e.getSource() == sf.getStopButton()) {
             // вызвать программный код из соответствующего уровня бизнес-логики, останавливающий сервер
+            try {
+                cl.clientDown(5050);
+
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
             sf.stopServer();
         }
         if (e.getSource() == sf.getExitButton()) {
             // вызвать программный код из соответствующего уровня бизнес-логики, останавливающий сервер и выходящий из формы
             System.exit(1);
         }
-
 
         // все данные с формы собираются в формате String. Если по смыслу задачи параметры имеют другой тип, в нашем случае тип int,
         // то требуется преобразование в нужный тип. Кроме этого требуется проверка на корректность ввода данных (поле должно быть пустым,
@@ -148,8 +173,6 @@ class ServerFormListener implements ActionListener, FocusListener, KeyListener, 
     public void mouseExited(MouseEvent e) {
 
     }
-
-
 
     @Override
     public void windowOpened(WindowEvent e) {
