@@ -1,30 +1,28 @@
 package com.company.awt.server;
 
+import com.company.awt.client.ClientThread;
+
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
 public class ServerUpAndDown {
-    static Socket s;
-    static ServerSocket ss;
 
-    public ServerUpAndDown()  {
+    public static void main(String[] args) throws IOException, InterruptedException {
+        ServerThread serv = new ServerThread();
+        serv.setPORT(5050);
 
-    }
+        Thread s = new Thread(serv);
+        //s.setPriority(1);
+        s.start();
 
-    public static void main(String[] args) throws IOException {
-        serverUp(5050);
-        serverDown ();
+        Thread.sleep(4000);
 
-    }
+        ClientThread cli = new ClientThread();
+        cli.setPORT(5050);
 
-    public static void serverUp(int port) throws IOException {
-        ss = new ServerSocket(port);
-        s = ss.accept();
-    }
+        Thread c = new Thread(cli);
 
-    public static void serverDown() throws IOException {
-        s.close();
-        ss.close();
+        c.start();
     }
 }

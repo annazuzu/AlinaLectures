@@ -6,6 +6,8 @@ import java.awt.event.WindowEvent;
 import java.awt.image.ImageObserver;
 import java.text.AttributedCharacterIterator;
 
+import static java.lang.Integer.parseInt;
+
 public class ServerForm extends Frame
 {
     Label portLabel;
@@ -92,6 +94,10 @@ public class ServerForm extends Frame
         portTextField.setBackground(Color.white);
         portTextField.setText("");
         portTextField.setEditable(true);
+    }
+
+    public int GetPortNumber(){
+        return parseInt(portTextField.getText());
     }
 
     // Геттеры:

@@ -1,12 +1,10 @@
 package com.company.awt;
 
-import com.company.awt.client.Client;
+import com.company.awt.client.ClientThread;
 import com.company.awt.model.ServerForm;
-import com.company.awt.server.Server;
+import com.company.awt.server.ServerThread;
 
-import java.awt.*;
 import java.awt.event.*;
-import java.io.Closeable;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -19,12 +17,12 @@ class ServerFormListener implements ActionListener, FocusListener, KeyListener, 
     ServerForm sf;
     WindowAdapter windowAdapter = null;
     //int port;
-    Client cl;
-    Server sr;
+    ClientThread cl;
+    ServerThread sr;
 
-    public ServerFormListener(ServerForm sf, Server sr) {
+    public ServerFormListener(ServerForm sf) {
         this.sf = sf;
-        this.sr = sr;
+       // this.sr = sr;
         //this.cl = cl;
 
         sf.getStartButton().addActionListener(this);
@@ -56,15 +54,17 @@ class ServerFormListener implements ActionListener, FocusListener, KeyListener, 
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == sf.getStartButton()) {
             if(!sf.getPortTextField().getText().equals("")){
+                int PORT = sf.GetPortNumber();
+                System.out.println(PORT);
                 // вызвать программный код из соответствующего уровня приложения, который будет запускать сервер
-                try {
-                    sr.serverUp(5050);
 
-                } catch (IOException ex) {
-                    ex.printStackTrace();
-                }
+                ServerThread serv = new ServerThread();
+                serv.setPORT(PORT);
+
+                Thread s = new Thread(serv);
 
                 sf.startServer();
+                s.start();
 
             } else {
                 sf.ErrorPort("Поле 'Port' пустое!");
@@ -73,12 +73,14 @@ class ServerFormListener implements ActionListener, FocusListener, KeyListener, 
         }
         if (e.getSource() == sf.getStopButton()) {
             // вызвать программный код из соответствующего уровня бизнес-логики, останавливающий сервер
-            try {
-                cl.clientDown(5050);
+            int PORT = sf.GetPortNumber();
 
-            } catch (IOException ex) {
-                ex.printStackTrace();
-            }
+            ClientThread cli = new ClientThread();
+            cli.setPORT(PORT);
+
+            Thread c = new Thread(cli);
+
+            c.start();
             sf.stopServer();
         }
         if (e.getSource() == sf.getExitButton()) {
