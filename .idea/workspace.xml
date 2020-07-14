@@ -3,19 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6e64f03b-daec-4522-b551-dd64e7f9c970" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlinaLectures/com/company/awt/ServerFormApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlinaLectures/com/company/awt/ServerFormApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlinaLectures/com/company/awt/ServerFormListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlinaLectures/com/company/awt/ServerFormListener$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlinaLectures/com/company/awt/ServerFormListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlinaLectures/com/company/awt/ServerFormListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlinaLectures/com/company/awt/client/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlinaLectures/com/company/awt/model/ServerForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlinaLectures/com/company/awt/model/ServerForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlinaLectures/com/company/awt/server/Server.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlinaLectures/com/company/awt/server/ServerUpAndDown.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlinaLectures/com/company/awt/server/ServerUpAndDown.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/awt/ServerFormApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/awt/ServerFormApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/awt/ServerFormListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/awt/ServerFormListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/awt/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/awt/client/ClientThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/awt/model/ServerForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/awt/model/ServerForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/awt/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/awt/server/ServerThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/awt/server/ServerUpAndDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/awt/server/ServerUpAndDown.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,42 +159,42 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="512" height="438" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1594111859978" />
-    <state width="1323" height="123" key="GridCell.Tab.0.bottom" timestamp="1594119091715">
+    <state width="1323" height="123" key="GridCell.Tab.0.bottom" timestamp="1594150323605">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="123" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594119091715" />
-    <state width="1323" height="123" key="GridCell.Tab.0.center" timestamp="1594119091715">
+    <state width="1323" height="123" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594150323605" />
+    <state width="1323" height="123" key="GridCell.Tab.0.center" timestamp="1594150323605">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="123" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594119091715" />
-    <state width="1323" height="123" key="GridCell.Tab.0.left" timestamp="1594119091714">
+    <state width="1323" height="123" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1594150323605" />
+    <state width="1323" height="123" key="GridCell.Tab.0.left" timestamp="1594150323605">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="123" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594119091714" />
-    <state width="1323" height="123" key="GridCell.Tab.0.right" timestamp="1594119091715">
+    <state width="1323" height="123" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1594150323605" />
+    <state width="1323" height="123" key="GridCell.Tab.0.right" timestamp="1594150323605">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="123" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594119091715" />
-    <state width="1323" height="187" key="GridCell.Tab.1.bottom" timestamp="1594115339983">
+    <state width="1323" height="123" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594150323605" />
+    <state width="1323" height="187" key="GridCell.Tab.1.bottom" timestamp="1594150323605">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="187" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594115339983" />
-    <state width="1323" height="187" key="GridCell.Tab.1.center" timestamp="1594115339983">
+    <state width="1323" height="187" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594150323605" />
+    <state width="1323" height="187" key="GridCell.Tab.1.center" timestamp="1594150323605">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="187" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1594115339983" />
-    <state width="1323" height="187" key="GridCell.Tab.1.left" timestamp="1594115339983">
+    <state width="1323" height="187" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1594150323605" />
+    <state width="1323" height="187" key="GridCell.Tab.1.left" timestamp="1594150323605">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="187" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1594115339983" />
-    <state width="1323" height="187" key="GridCell.Tab.1.right" timestamp="1594115339983">
+    <state width="1323" height="187" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1594150323605" />
+    <state width="1323" height="187" key="GridCell.Tab.1.right" timestamp="1594150323605">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="187" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1594115339983" />
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1594110666476">
+    <state width="1323" height="187" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1594150323605" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1594226033016">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1594110666476" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1594226033016" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1593788169863">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
